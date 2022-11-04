@@ -1,0 +1,30 @@
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section img{
+    margin: auto
+
+}
+
+section h1{
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+section ul{
+   margin: auto;
+    float: right;
+   
+} 
+
+section li{
+    display: inline;
+
+
+}
+section p{
+    display: inline-flex;
+    margin-top: 5x;
+}
