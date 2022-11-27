@@ -1,46 +1,138 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 899px;
+  }
+  
+  .oswald-text {
+    font-family: "Oswald";
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .indent-para {
+    text-indent: 2em;
+  }
+  
+  #article-title-details h1 {
+    font-size: 45px;
+  }
+  
+  #article-title-details {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  #print-icon {
+    margin-left: 698px;
+  }
+  
+  #article-print img, #article-print p {
+    display: inline-block;
+  }
+  
+  #section-header-left{
+    display: inline-flex;
+  }
+  
+  #section-header-left img {
+    display: inline-flex;
+  }
+  
+  #brand-text {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  #header-left-slogan {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  
+  header{
+    border-bottom: thick;
+    border-bottom-style: dashed;
+    border-bottom-color: gray;
+    border-width: 3px;
+  }
+  
+  .two-column-list{
+    background-image: url("img/list-bg.png");
+    list-style: none;
+   }
+
+  #cbox1, #cbox2, #cbox3, #cbox4, #cbox5, #cbox6, #cbox7, #cbox8, #cbox9, #cbox10, #cbox11, #cbox12 {
+    color: black;
+    text-decoration: line-through;
+  }
+  
+  input[type=checkbox]:checked + label {
+    color: black;
+    text-decoration: line-through;
+  }
+  
+  #article-footer {
+    margin-top: 25px;
+    border-top: thick;
+    border-top-style: dashed;
+    border-top-color: gray;
+    border-width: 3px;
+  }
+  
+  #auther-bio {
+    display: inline-block;
+    margin-right: 73px;
+  }
+  
+  #article-footer img {
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+  #button1 {
+    font-family: "Oswald";
+    background: #bc7058;
+    color: white;
+    padding: 9px 36px;
+    display: inline-block;
+  }
+  
+  #ending-footer {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-top: thick;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-width: 1px;
+  }
+  
+  #ending-footer p {
+    margin-left: 280px;
+  }
+  
+  #ending-footer img {
+    margin-top: -18px;
+    margin-left: 397px;
+  }
+  #socialMedia{
+    float: right;
+    position: relative;
+    bottom: 150px;
+   margin-top: 20px;
+
+   
+}
+
 section{
     display: flex;
     justify-content: space-between;
 }
 
- img{
-   display:inline-flex;
-
-}
-
- .header {
-    color:rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 52px;
-    bottom: 82px;
-}
-
- ul{
-   margin: auto;
-    float: right;
-   
-} 
-
- li{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-
-}
-#socialMedia{
-    float: right;
-    position: relative;
-    bottom: 150px;
-   margin-top: 20px;
-}
-
 header h1{
     margin-bottom: 0px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Yellowtail', cursive;
 }
-header p{
-    margin-top: 0px;
-}
-
